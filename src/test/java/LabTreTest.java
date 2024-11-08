@@ -22,14 +22,13 @@ public class LabTreTest {
         Assert.assertEquals(4, actual);
 
     }
-/*
+
         @Test
         public void testOfNumbersWhenNegativeValue() {
             int actual = 5*2;
             Assert.assertEquals(-12, actual);
 
-        }*/
-
+        }
     @Test
     public void testToDivideToNumbers() {
         double actual = 6/2;
