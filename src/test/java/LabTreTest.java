@@ -48,7 +48,7 @@ public class LabTreTest {
     @Test
     public void testToMultiTwoNumbers() {
         int expected = 43*2;
-        int actual = 8;
+        int actual =12;
         Assert.assertEquals(expected,actual);
 
     }
