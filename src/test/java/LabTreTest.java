@@ -33,7 +33,7 @@ public class LabTreTest {
     public void testToDivideToNumbers() {
         double actual = 6/2;
         // double expected = 3.0;
-        Assert.assertEquals(3.0, actual, 0.0001); // Adding a small delta value
+        Assert.assertEquals(3.0, actual, 0.0001);
 
 
     }
