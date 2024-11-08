@@ -9,7 +9,7 @@ public class LabTreTest {
     }
 
     @Test
-    public void testSumOfNumbersWhenNegativeValue() {
+    public void testSubOfNumbersWhenNegativeValue() {
         int expected = 2-3;
         int actual = -1;
         Assert.assertEquals(expected,actual);
@@ -17,7 +17,7 @@ public class LabTreTest {
     }
 
     @Test
-    public void testOfNumberWhenPostiveValue() {
+    public void testOfNumberWhenPositiveValue() {
         int actual = 9-5;
         Assert.assertEquals(4, actual);
 
@@ -30,7 +30,7 @@ public class LabTreTest {
 
         }
     @Test
-    public void testToDivideToNumbers() {
+    public void testToDivideTwoNumbers() {
         double actual = 6/2;
         // double expected = 3.0;
         Assert.assertEquals(3.0, actual, 0.0001);
@@ -39,8 +39,15 @@ public class LabTreTest {
     }
 
     @Test
-    public void testOfMultiplicationWhenPositiveNumbers() {
+    public void toMultiTwoNumbers() {
         int expected = 4*2;
+        int actual = 8;
+        Assert.assertEquals(expected,actual);
+
+    }
+    @Test
+    public void testToMultiTwoNumbers() {
+        int expected = 43*2;
         int actual = 8;
         Assert.assertEquals(expected,actual);
 
